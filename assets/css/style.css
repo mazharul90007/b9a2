@@ -28,7 +28,7 @@ img {
 
 .common-heading1 {
     color: #131318;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
@@ -91,7 +91,7 @@ nav {
 }
 .logo-title {
     color: #131318;
-    font-size: 36px;
+    font-size: 2.2rem;
     font-weight: 800;
     margin-left: 10px;
 }

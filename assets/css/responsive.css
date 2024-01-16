@@ -1,4 +1,10 @@
 @media screen and (max-width: 600px) {
+    .common-heading1{
+        font-size: 2rem;
+    }
+    .common-heading2{
+        font-size: 1.2rem;
+    }
     .banner-selection ul, .popular-tour, .watch-video {
         flex-direction: column;
     }
@@ -14,6 +20,18 @@
     }
     .banner-content button, select, .newsletter-content, .facility-row2, .popular-tour-content, .popular-tour-img img, .watch-video .watch-video-vid, .watch-video-content{
         width: 100%;
+    }
+    .logo-title {
+        font-size: 1.5rem;
+    }
+    .banner-titile{
+        font-size: 3.5rem;
+    }
+    .destination-container{
+        width: 80%;
+    }
+    .facility-description{
+        width: 80%;
     }
     .row1{
         grid-template-columns: repeat(1, 1fr);
