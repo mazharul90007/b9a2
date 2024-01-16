@@ -82,7 +82,13 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
+.nav-icon{
+    display: none;
+    font-size: 30px;
+}
+.nav-icon:hover {
+    cursor: pointer;
+}
 .logo-title {
     color: #131318;
     font-size: 36px;

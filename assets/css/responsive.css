@@ -3,8 +3,11 @@
         flex-direction: column;
     }
     .nav-link ul {
-        visibility: hidden;
+        display: none;
         flex-direction: column;
+    }
+    .nav-icon{
+        display: block;
     }
     .banner{
         padding: 5px;
