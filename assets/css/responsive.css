@@ -14,5 +14,30 @@
     .popular-tour-img img{
         width: 100%;
     }
+    .row1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row2 .srilanka {
+        grid-column: 1/14;
+    }
+    .row2 .north-america{
+        grid-column: 1/14;
+    }
+    .row2 .kasmir{
+        grid-column: 1/14;
+    }
+    .row2 img{
+        height: 280px;
+    }
+    .row3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .row3 img{
+        height: 280px;
+    }
 
 }
