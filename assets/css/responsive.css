@@ -2,16 +2,14 @@
     .banner-selection ul, .popular-tour {
         flex-direction: column;
     }
+    .nav-link ul {
+        visibility: hidden;
+        flex-direction: column;
+    }
     .banner{
         padding: 5px;
     }
-    .banner-content button, select{
-        width: 100%;
-    }
-    .popular-tour-content{
-        width: 100%;
-    }
-    .popular-tour-img img{
+    .banner-content button, select, .newsletter-content, .facility-row2, .popular-tour-content, .popular-tour-img img{
         width: 100%;
     }
     .row1{
@@ -42,8 +40,23 @@
     .facility-row1{
         grid-template-columns: repeat(1, 1fr);
     }
-    .facility-row2{
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-img img {
         width: 100%;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter-content{
+        padding: 0px;
+    }
+    .footer-content{
+        width: 90%; 
+    }
+    footer{
+        padding: 0;
     }
 
 }
