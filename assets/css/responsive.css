@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .banner-selection ul {
+        flex-direction: column;
+    }
+    .banner{
+        padding: 5px;
+    }
+    .banner-content button, select{
+        width: 100%;
+    }
+}
