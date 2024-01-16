@@ -357,6 +357,35 @@ h3 {
 }
 
 /*Facility part css end*/
+/*video part css start*/
+.watch-video{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.watch-video-content {
+    width: 40%;
+}
+.watch-video .watch-video-vid{
+    width: 50%;
+    border-radius: 15px;
+}
+.watch-video .watch-video-vid video {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.watch-video-content ul{
+    list-style-position: inside;
+    margin: 20px 0;
+}
+.watch-video-content ul li {
+    margin: 15px 0;
+}
+.watch-video-content p {
+    margin: 20px 0;
+}
+/*video part css end*/
 /*Newsletter part css start*/
 .newsletter {
     margin: 50px 0;

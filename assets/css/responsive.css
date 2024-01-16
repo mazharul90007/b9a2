@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    .banner-selection ul, .popular-tour {
+    .banner-selection ul, .popular-tour, .watch-video {
         flex-direction: column;
     }
     .nav-link ul {
@@ -9,7 +9,7 @@
     .banner{
         padding: 5px;
     }
-    .banner-content button, select, .newsletter-content, .facility-row2, .popular-tour-content, .popular-tour-img img{
+    .banner-content button, select, .newsletter-content, .facility-row2, .popular-tour-content, .popular-tour-img img, .watch-video .watch-video-vid, .watch-video-content{
         width: 100%;
     }
     .row1{
