@@ -39,5 +39,11 @@
     .row3 img{
         height: 280px;
     }
+    .facility-row1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .facility-row2{
+        width: 100%;
+    }
 
 }
