@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    .banner-selection ul {
+    .banner-selection ul, .popular-tour {
         flex-direction: column;
     }
     .banner{
@@ -8,4 +8,11 @@
     .banner-content button, select{
         width: 100%;
     }
+    .popular-tour-content{
+        width: 100%;
+    }
+    .popular-tour-img img{
+        width: 100%;
+    }
+
 }
