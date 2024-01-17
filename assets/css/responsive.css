@@ -1,79 +1,166 @@
 @media screen and (max-width: 600px) {
-    .common-heading1{
+    .common-heading1 {
         font-size: 2rem;
     }
-    .common-heading2{
+
+    .common-heading2 {
         font-size: 1.2rem;
     }
-    .banner-selection ul, .popular-tour, .watch-video {
+    .primary-button {
+        border-radius: 5px;
+        background: #FF5400;
+        color: #FFF;
+        font-size: 0.9rem;
+        font-weight: 800;
+        padding: 8px;
+        margin: 10px 0;
+    }
+
+    .banner-selection ul,
+    .popular-tour,
+    .watch-video {
         flex-direction: column;
     }
+
     .nav-link ul {
         display: none;
         flex-direction: column;
     }
-    .nav-icon{
+
+    .nav-icon {
         display: block;
     }
-    .banner{
+
+    .banner {
         padding: 5px;
     }
-    .banner-content button, select, .newsletter-content, .facility-row2, .popular-tour-content, .popular-tour-img img, .watch-video .watch-video-vid, .watch-video-content{
+
+    .banner-content button,
+    select,
+    .newsletter-content,
+    .facility-row2,
+    .popular-tour-content,
+    .popular-tour-img img,
+    .watch-video .watch-video-vid,
+    .watch-video-content,
+    .discount-content {
         width: 100%;
     }
+
     .logo-title {
         font-size: 1.5rem;
     }
-    .banner-titile{
+
+    .banner-titile {
         font-size: 3.5rem;
     }
-    .destination-container{
+
+    .destination-container {
         width: 80%;
     }
-    .facility-description{
+
+    .facility-description {
         width: 80%;
     }
-    .row1{
+
+    .row1 {
         grid-template-columns: repeat(1, 1fr);
     }
-    .row2{
+
+    .row2 {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .row2 .srilanka {
         grid-column: 1/14;
     }
-    .row2 .north-america{
+
+    .row2 .north-america {
         grid-column: 1/14;
     }
-    .row2 .kasmir{
+
+    .row2 .kasmir {
         grid-column: 1/14;
     }
-    .row2 img{
+
+    .row2 img {
         height: 280px;
     }
+
     .row3 {
         display: flex;
         flex-direction: column;
     }
-    .row3 img{
+
+    .row3 img {
         height: 280px;
     }
-    .facility-row1{
+
+    .facility-row1 {
         grid-template-columns: repeat(1, 1fr);
     }
-    .newsletter{
+
+    .newsletter {
         flex-direction: column;
+    }
+
+    .discount-card1,
+    .discount-card2,
+    .discount-card3 {
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+        border-radius: 5px;
+        bottom: 25px;
+        right: 25px;
+    }
+    .card-description p{
+        font-size: 12px;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .card-description h3 {
+        padding: 5px 0;
+        margin: 0;
+    }
+    .card-schedule {
+        display: flex;
+        gap: 10px;
+        font-size: 12px;
+    }
+    .discount img{
+        height: 320px;
     }
     .newsletter-img img {
         width: 100%;
     }
-    .newsletter{
+
+    .newsletter {
         width: 100%;
     }
-    .newsletter-content{
+    .newsletter-info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .newsletter-content {
         padding: 0px;
     }
-    .footer-content{
-        width: 90%; 
+
+    .sticker {
+        height: 60px;
+        width: 200px;
+    }
+
+    .sticker h3 {
+        font-size: 24px;
+    }
+
+    .sticker p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .footer-content {
+        width: 90%;
     }
 }

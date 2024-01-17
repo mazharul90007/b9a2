@@ -71,6 +71,7 @@ body {
 nav {
     margin: 20px 0;
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -82,13 +83,16 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.nav-icon{
+
+.nav-icon {
     display: none;
     font-size: 30px;
 }
+
 .nav-icon:hover {
     cursor: pointer;
 }
+
 .logo-title {
     color: #131318;
     font-size: 2.2rem;
@@ -120,6 +124,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
 }
+
 .nav-link ul li a span {
     color: #FF5400;
     font-weight: 700;
@@ -363,34 +368,91 @@ h3 {
 }
 
 /*Facility part css end*/
+/*Discount part css start*/
+.discount{
+    margin-top: 50px;
+}
+.discount-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.discount-content p{
+    margin: 5px 0 30px 0;
+}
+.discount-banner {
+    margin-bottom: 10px;
+}
+.discount img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.discount-banner1, .discount-banner2, .discount-banner3{
+    position: relative;
+}
+.discount-card1, .discount-card3{
+    width: 40%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.60);
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 75px;
+    right: 75px;
+}
+.discount-card2{
+    width: 40%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.60);
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 75px;
+    left: 75px;
+}
+.card-schedule {
+    display: flex;
+    gap: 30px;
+}
+.card-description h4 {
+    color: #FF5400;
+}
+/*Discount part css end*/
 /*video part css start*/
-.watch-video{
+.watch-video {
     margin: 40px 0;
     display: flex;
     justify-content: space-between;
 }
+
 .watch-video-content {
     width: 40%;
 }
-.watch-video .watch-video-vid{
+
+.watch-video .watch-video-vid {
     width: 50%;
     border-radius: 15px;
 }
+
 .watch-video .watch-video-vid video {
     height: 100%;
     width: 100%;
     border-radius: 15px;
 }
-.watch-video-content ul{
+
+.watch-video-content ul {
     list-style-position: inside;
     margin: 20px 0;
 }
+
 .watch-video-content ul li {
     margin: 15px 0;
 }
+
 .watch-video-content p {
     margin: 20px 0;
 }
+
 /*video part css end*/
 /*Newsletter part css start*/
 .newsletter {
@@ -426,6 +488,35 @@ h3 {
 
 .newsletter-content button {
     width: 100%;
+}
+.newsletter-img{
+    position: relative;
+}
+.sticker{
+    padding: 10px;
+    background-color: #FF5400;
+    border-radius: 15px;
+    text-align: center;
+    height: 90px;
+    width: 250px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+}
+.sticker p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.sticker h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
 
 /*Newsletter part css end*/
